@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.authors           = ['Saku Ytti', 'Samer Abdel-Hafez', 'Anton Aksola']
   s.email             = %w[saku@ytti.fi sam@arahant.net aakso@iki.fi]
-  s.homepage          = 'http://github.com/ytti/oxidized'
+  s.homepage          = 'https://github.com/pasientskyhosting/oxidized'
   s.summary           = 'feeble attempt at rancid'
   s.description       = 'software to fetch configuration from network devices and store them'
   s.rubyforge_project = s.name
@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'asetus',  '~> 0.1'
   s.add_runtime_dependency 'bcrypt_pbkdf', '~> 1.0'
   s.add_runtime_dependency 'ed25519', '~> 1.2'
-  s.add_runtime_dependency 'net-ssh', '~> 5'
+  s.add_runtime_dependency 'net-ssh', '~> 7.0.0.beta1'
   s.add_runtime_dependency 'net-telnet', '~> 0.2'
   s.add_runtime_dependency 'rugged',  '~> 0.28.0'
   s.add_runtime_dependency 'slop',    '~> 4.6'
